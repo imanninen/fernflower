@@ -44,6 +44,7 @@ public interface IFernflowerPreferences {
   String NEW_LINE_SEPARATOR = "nls";
   String INDENT_STRING = "ind";
   String BANNER = "ban";
+  String SIMPLIFY_RECORD_CLASSES = "src";
 
   String DUMP_ORIGINAL_LINES = "__dump_original_lines__";
   String UNIT_TEST_MODE = "__unit_test_mode__";
@@ -84,6 +85,7 @@ public interface IFernflowerPreferences {
     defaults.put(VERIFY_ANONYMOUS_CLASSES, "0");
     defaults.put(CONVERT_RECORD_PATTERN, "0");
     defaults.put(CONVERT_PATTERN_SWITCH, "0");
+    defaults.put(SIMPLIFY_RECORD_CLASSES, "0");
 
     defaults.put(LOG_LEVEL, IFernflowerLogger.Severity.INFO.name());
     defaults.put(MAX_PROCESSING_METHOD, "0");

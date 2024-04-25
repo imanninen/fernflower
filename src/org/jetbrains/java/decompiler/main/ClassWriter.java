@@ -323,8 +323,10 @@ public class ClassWriter {
           return str.startsWith("return this." + name + "<invokedynamic>(this");
         }
       }
-      return isDefaultGeneratedRecordGetMethod(cl, mt, code) ||
-        isDefaultGeneratedRecordInit(cl, mt, code);
+      if (DecompilerContext.getOption(IFernflowerPreferences.SIMPLIFY_RECORD_CLASSES)) {
+        return isDefaultGeneratedRecordGetMethod(cl, mt, code) ||
+          isDefaultGeneratedRecordInit(cl, mt, code);
+      }
     }
     return false;
   }
