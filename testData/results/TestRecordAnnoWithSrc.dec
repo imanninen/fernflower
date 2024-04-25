@@ -1,0 +1,5 @@
+package records;
+
+public record TestRecordAnnoWithSrc(@RC @TA int x, int y) {
+}
+
