@@ -1,4 +1,4 @@
-#### Here is a [link](MY_SOLUTION.md) to my solution of the task 3.
+#### Here is a [link](MY_SOLUTION.md) to my solution of the tasks.
 
 ### About Fernflower
 
