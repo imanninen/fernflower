@@ -1,10 +1,19 @@
 ## Task 1
 **_Why are you interested in this project?_**
 
-Firstly, I like low-level stuff, and especially a JVM stack because I consider it like a future 
-field of working on. And your internship is strongly related to it.
-Secondly, my friend really recommended this team, and I will get great experience working in it.
-And thirdly, this is a great chance to work on real tasks, and get real experience of working. 
+I choose this internship because it is related to low-level code and compilers theme, that I'm very interested in.
+
+While solving test tasks, I realized that internship won't be easy, but I believe without stress and hard tasks, 
+you can't really grow as a developer. 
+And your internship will give me this hard work.
+
+Also, it will give me a great experience of real work, with a great team, 
+and I believe it is also essential for programmer to have.
+Although I am only on second year of studying at university, I have a huge thirst for knowledge.
+I will also receive additional motivation from the fact that development will be carried out in Java/Kotlin,
+the knowledge of which I want to bring to perfection.
+
+And of course, this internship will allow me to get new connections, and hopefully future work colleagues!
 
 ## Task 2 
 **_How do you think the UI should look like for letting users set the decompilation mode in
