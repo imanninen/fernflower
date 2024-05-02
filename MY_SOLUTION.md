@@ -1,7 +1,7 @@
 ## Task 1
 **_Why are you interested in this project?_**
 
-I choose this internship because it is related to low-level code and compilers theme, that I'm very interested in.
+I chose this internship because it is related to low-level code and compilers theme, that I'm very interested in.
 
 While solving test tasks, I realized that internship won't be easy, but I believe without stress and hard tasks, 
 you can't really grow as a developer. 
