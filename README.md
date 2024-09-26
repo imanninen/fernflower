@@ -1,3 +1,5 @@
+#### Here is a [link](MY_SOLUTION.md) to my solution of the tasks.
+
 ### About Fernflower
 
 Fernflower is the first actually working analytical decompiler for Java and 

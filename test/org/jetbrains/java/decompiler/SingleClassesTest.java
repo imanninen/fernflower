@@ -251,6 +251,27 @@ public class SingleClassesTest {
 
   @Test public void testSwitchOnStatic() { doTest("pkg/SwitchOnStatic"); }
 
+  @Test public void testRecordSimpleWithSrc() {
+    DecompilerContext.setProperty(IFernflowerPreferences.SIMPLIFY_RECORD_CLASSES, "1");
+    doTest("records/TestRecordSimpleWithSrc");
+  }
+  @Test public void testRecordEmptyWithSrc() {
+    DecompilerContext.setProperty(IFernflowerPreferences.SIMPLIFY_RECORD_CLASSES, "1");
+    doTest("records/TestRecordEmptyWithSrc");
+  }
+  @Test public void testRecordAnnoWithSrc() {
+    DecompilerContext.setProperty(IFernflowerPreferences.SIMPLIFY_RECORD_CLASSES, "1");
+    doTest("records/TestRecordAnnoWithSrc");
+  }
+  @Test public void testRecordVarArgWithSrc() {
+    DecompilerContext.setProperty(IFernflowerPreferences.SIMPLIFY_RECORD_CLASSES, "1");
+    doTest("records/TestRecordVarArgWithSrc");
+  }
+  @Test public void testRecordMulti() {
+    DecompilerContext.setProperty(IFernflowerPreferences.SIMPLIFY_RECORD_CLASSES, "1");
+    doTest("records/TestRecordMulti");
+  }
+
   private void doTest(String testFile, String... companionFiles) {
     var decompiler = fixture.getDecompiler();
 
